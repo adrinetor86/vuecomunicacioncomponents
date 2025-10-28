@@ -30,6 +30,8 @@
     </div>
   </div>
 
+
+
   <div v-if="comicFavorito">
     <h2 style="color:dodgerblue">{{ comicFavorito.titulo }}</h2>
     <p>{{ comicFavorito.descripcion }}</p>
