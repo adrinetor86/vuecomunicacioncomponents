@@ -2,11 +2,11 @@
   <div>
     <div>Checked names: {{ checkedNames }}</div>
     <button>Generar CheckBox</button>
-    <input v-html="sumarNumeros" type="checkbox" id="jack" value="15" v-model="checkedNumber" @change="sumarNumeros"/>
+    <input  type="checkbox" id="jack" value="15" v-model="checkedNumber" @change="sumarNumeros"/>
     <label for="jack">15</label>
-    <input v-html="sumarNumeros" type="checkbox" id="john" value="30" v-model="checkedNumber" @change="sumarNumeros" />
+    <input type="checkbox" id="john" value="30" v-model="checkedNumber" @change="sumarNumeros" />
     <label for="john">30</label>
-    <input  v-html="sumarNumeros" type="checkbox" id="mike" value="44" v-model="checkedNumber" @change="sumarNumeros" />
+    <input  type="checkbox" id="mike" value="44" v-model="checkedNumber" @change="sumarNumeros" />
     <label for="mike">44</label>
   </div>
 
